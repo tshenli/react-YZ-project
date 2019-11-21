@@ -1,0 +1,91 @@
+.page_equ_create {
+  padding-bottom: 55px;
+
+  .pec_block_wrap {
+    background: white;
+    box-sizing: border-box;
+    padding: 16px;
+
+    .pec_block {
+      .pec_block_title {
+        font-weight: bolder;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 16px;
+      }
+
+      .pec_block_row {
+        margin: 20px 0;
+
+        .pec_block_lable {
+          text-align: right;
+
+          >span {
+            padding-right: 10px;
+          }
+
+          >span:nth-child(1) {
+            color: red;
+            font-size: 16px;
+          }
+
+          >span:nth-child(2) {
+            font-size: 14px;
+          }
+        }
+
+        .pec_block_radio {
+          padding: 20px 0px;
+        }
+
+        // .pec_block_span {
+        //   padding: 0px 10px;
+        // }
+
+        .pec_block_checkbox {
+          padding-bottom: 20px;
+        }
+
+        .pec_block_top {
+          padding: 5px 0px 15px 0px;
+          color: #ccc;
+          font-size: 13px;
+        }
+
+        .pec_block_preview {
+          padding: 5px 0px 0px 20px;
+          color: rgba(24, 144, 255, 1);
+          font-size: 14px;
+          vertical-align: middle;
+        }
+
+        .pec_block_package {
+          padding-bottom: 20px;
+          color: #ccc;
+          font-size: 16px;
+        }
+
+        .pec_block_overdue {
+          padding-right: 20px;
+        }
+      }
+
+    }
+  }
+
+
+  .pec_block_btns {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 150px;
+    height: 55px;
+    background: white;
+    box-shadow: 0 -3px 5px #eee;
+    text-align: center;
+    line-height: 55px;
+
+    .pec_block_btn {
+      margin: 0 15px;
+    }
+  }
+}

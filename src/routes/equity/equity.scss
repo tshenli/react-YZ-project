@@ -1,0 +1,24 @@
+.equ_content {
+  background: white;
+  box-sizing: border-box;
+  padding: 16px;
+
+  .equ_page_tab1 {
+    .ept_header {
+      padding-bottom: 16px;
+    }
+
+    .ept_row_actions {
+      a {
+        padding: 0 8px;
+        box-sizing: border-box;
+        border-right: 1px solid #ccc;
+        vertical-align: middle;
+      }
+
+      a:nth-child(3) {
+        border: none;
+      }
+    }
+  }
+}
